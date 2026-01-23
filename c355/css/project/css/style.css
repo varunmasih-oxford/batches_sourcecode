@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+.logo{
+    background-color: orange;
+    width: 30%;
+    height: 100px;
+
+}
+.menu{
+    background-color: white;
+    width: 70%;
+    height: 100px;
+
+}
+.hero{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/Everest_North.jpg);
+    background-size: 100% 100%;
+
+}
+
+.layer{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+    /* opacity: 0; */
+}
+.inner_text{
+    height: 20%;
+    text-align: center;
+    width: 50%;
+    color: white;
+    font-size: 30px;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card-section{
+    height: 300px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    height: 80%;
+    width: 300px;
+    background-color: white;
+}

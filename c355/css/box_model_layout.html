@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .outer{
+            background-color: red;
+            height: 200px;
+            width: 1000px;
+        }
+        .inner{
+            background-color: orange;
+            height: 100%;
+            width: 50%;
+            float: left;
+            border: 1px solid red;
+            /* box-sizing: border-box; */
+
+        }
+        .inner1{
+            background-color: grey;
+            height: 100%;
+            width: 50%;
+            float: right;
+            padding: 10px;
+            /* box-sizing: border-box; */
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner"></div>
+        <div class="inner1"></div>
+    </div>
+</body>
+</html>

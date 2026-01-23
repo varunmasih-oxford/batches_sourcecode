@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is a revision</h1>
+    <h1 id="first" title="this is title" style="border: 1px solid red;">this is a revision : <u>ID</u></h1>
+    <h1 class="second">this is a revision : CLASS</h1>
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        
+        
+        // get Element by ID | CLASS | TAG NAME
+
+        // var a = document.getElementsByTagName("h1")[0]
+        // console.log(a);
+
+        // var a = document.getElementById("first")
+        // console.log(a);
+        
+        // var a = document.getElementsByClassName("second")[0]
+        // console.log(a);
+        
+        // get innerHTML | innerText
+
+        // var a = document.getElementById("first").innerHTML
+        // console.log(a);
+        
+        // var a = document.getElementById("first").innerText
+        // console.log(a);
+        
+        // set innerHTML | innerText
+
+        // document.getElementById("first").innerHTML = "this is <u>changed</u> using innerHTML"
+        // document.getElementById("first").innerText = "this is changed using innerText"
+
+        // change style
+        // document.getElementById("first").style.color = "red";
+        // document.getElementById("first").style.backgroundColor = "yellow";
+        // document.getElementById("first").style.fontSize = "20px";
+
+
+        // change multiple styles together
+        // document.getElementById("first").style.cssText = "color: green; background-color: lightgrey; font-size: 25px; text-align: center;"
+
+        // get attributes
+        // var a = document.getElementById("first").attributes
+        // var a = document.getElementById("first").getAttribute("id")
+        // console.log(a);
+        
+        // get attributes
+        var a = document.getElementById("first").setAttribute("title", "this is changed title")
+        var a = document.getElementById("first").getAttribute("title")
+        
+        console.log(a);
+    </script>
+</body>
+</html>

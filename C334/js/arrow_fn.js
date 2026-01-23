@@ -1,7 +1,8 @@
 // function abc(){
 //     alert("Hello from abc");
-        // return "text"
+//     return "text"
 // }
+
 
 
 //var data =  abc()
@@ -9,6 +10,7 @@
 
 
 // arrow function
+
 // var arrw = () => {
 //     alert("Hello from arrw");
 // }
@@ -25,6 +27,9 @@
 // arrw("Ankit"); // argument
 // arrw("Ankit Kumar"); // argument
 
+
+
+
 // if you have only one parameter then you can remove ()
 
 // var arrw = stud_name => {
@@ -34,6 +39,9 @@
 
 // arrw("Ankit"); // argument
 // arrw("Ankit Kumar"); // argument
+
+
+
 
 
 // if you have more then one parameter then you Have to use ()

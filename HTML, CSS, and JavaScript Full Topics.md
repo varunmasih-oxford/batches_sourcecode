@@ -209,9 +209,9 @@
 ```html
 <title>Page</title>
 ```
-/*
+<!--
 ## 7. HTML5 Features
-*/
+
 * Local Storage – Stores data in browser.
   Example:
 
@@ -246,7 +246,7 @@ navigator.geolocation.getCurrentPosition(()=>{})
 ```html
 <canvas></canvas>
 ```
-
+-->
 ---
 
 # CSS (Cascading Style Sheets)

@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar{
+    /* background-color: orange; */
+    height: 70px;
+    display: flex;
+}
+.logo{
+    /* background-color: black; */
+    height: 70px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+.logo img{
+    height: 100%;
+}
+.menu{
+    /* background-color: pink; */
+    height: 70px;
+    width: 70%;
+    padding: 5px;
+}
+.menu ul{
+    display: flex;
+    justify-content: end;
+}
+.menu ul li{
+    padding: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.menu ul li a{
+text-decoration: none;
+color: black;
+}
+
+.menu ul li:hover{
+    background: yellow;
+}
+
+/* hero_section */
+
+.hero_section{
+    height: 500px;
+    background-image: url("../images/hero.jfif");
+    background-size: cover;
+}
+.layer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.hero_text{
+    font-weight: 900;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+.hero_text p{
+    font-size: 30px;
+
+
+}
+.hero_text button{
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    
+}
+.hero_text button:hover{
+    border:5px solid blueviolet;
+    background-color: rgba(0, 0, 0, 0);
+}
+.cards_section{
+    background-color: green;
+    height: 300px;
+}
+.featured_contant{
+    background-color: cyan;
+    height: 600px;
+}
+.secondary_contant{
+    background-color: blue;
+    height: 300px;
+}
+.heard_en{
+    background-color: black;
+    height: 300px;
+}
+.foot{
+    background-color: tomato;
+    height: 300px;
+}
